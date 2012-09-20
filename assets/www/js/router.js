@@ -1,14 +1,14 @@
 define([
-  'cordova',
   'jQuery',
   'underscore',
   'backbone',
   'views/home/main',
   'views/projects/list',
   'views/users/list'
-], function(Navigator, $, _, Backbone, mainHomeView, projectListView, userListView ){
+], function($, _, Backbone, mainHomeView, projectListView, userListView ){
   var AppRouter = Backbone.Router.extend({
     routes: {
+      '': 'showProjects',
       // Define some URL routes
       '/projects': 'showProjects',
       '/users': 'showUsers',

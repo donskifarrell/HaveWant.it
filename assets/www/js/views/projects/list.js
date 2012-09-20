@@ -11,6 +11,8 @@ define([
   var projectListView = Backbone.View.extend({
     el: $("#page"),
     initialize: function(){
+
+      console.log("init project****main*");
       this.collection = projectsCollection;
       this.collection.bind("add", this.exampleBind);
       this.collection = projectsCollection.add({ name: "Twitter"});
@@ -21,6 +23,8 @@ define([
       //console.log(model);
     },
     render: function(){
+
+      console.log("Renasderas****project*");
       var data = {
         projects: this.collection.models,
         _: _ 

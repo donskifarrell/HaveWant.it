@@ -8,8 +8,12 @@ define([
   var userListView = Backbone.View.extend({
     el: $("#page"),
     initialize: function(){
+
+      console.log("init users****main*");
     },
     render: function(){
+
+      console.log("Renasderas****users*");
       var data = {};
       var compiledTemplate = _.template( userListTemplate, data );
       this.el.html( compiledTemplate ); 
