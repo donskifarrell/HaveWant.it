@@ -8,10 +8,9 @@ define([
 ], function($, _, Backbone, mainHomeView, projectListView, userListView ){
   var AppRouter = Backbone.Router.extend({
     routes: {
-      '': 'showProjects',
       // Define some URL routes
-      '/projects': 'showProjects',
-      '/users': 'showUsers',
+      'projects': 'showProjects',
+      'users': 'showUsers',
       
       // Default
       '*actions': 'defaultAction'

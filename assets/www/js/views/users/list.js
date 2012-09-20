@@ -16,7 +16,7 @@ define([
       console.log("Renasderas****users*");
       var data = {};
       var compiledTemplate = _.template( userListTemplate, data );
-      this.el.html( compiledTemplate ); 
+      this.$el.html( compiledTemplate ); 
     }
   });
   return new userListView;

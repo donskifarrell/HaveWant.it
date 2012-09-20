@@ -7,9 +7,10 @@ define([
 
   var mainHomeView = Backbone.View.extend({
     el: $("#page"),
+
     render: function(){
       console.log("Renasderas****main*");
-      this.el.html(mainHomeTemplate);
+      this.$el.html(mainHomeTemplate);
     }
   });
   return new mainHomeView;
