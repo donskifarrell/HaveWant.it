@@ -4,7 +4,7 @@ define([
   'underscore', 
   'backbone',
   'router',
-], function(Navigator, $, _, Backbone, Router){
+], function(navigator, $, _, Backbone, Router){
   var initialize = function(){
     // Pass in our Router module and call it's initialize function
     Router.initialize();

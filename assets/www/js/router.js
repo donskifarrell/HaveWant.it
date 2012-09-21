@@ -1,33 +1,34 @@
 define([
+  'cordova',
   'jQuery',
   'underscore',
   'backbone',
-  'views/home/main',
-  'views/projects/list',
-  'views/users/list'
-], function($, _, Backbone, mainHomeView, projectListView, userListView ){
+
+  'views/home/home',
+  'views/items/items',
+  'views/addItem/addItem'
+], 
+
+function(navigator, $, _, Backbone, homePage, itemsListView, addNewItemView){
+
   var AppRouter = Backbone.Router.extend({
     routes: {
-      // Define some URL routes
-      'projects': 'showProjects',
-      'users': 'showUsers',
-      
-      // Default
-      '*actions': 'defaultAction'
+      'items': 'showItems',
+      'additem': 'addNewItem',
+
+      '*actions': 'showHomePage'
     },
-    showProjects: function(){
-      // Call render on the module we loaded in via the dependency array
-      // 'views/projects/list'
-      projectListView.render();
+
+    showItems: function(){
+      itemsListView.render();
     },
-      // As above, call render on our loaded module
-      // 'views/users/list'
-    showUsers: function(){
-      userListView.render();
+
+    addNewItem: function(){
+      addNewItemView.render();
     },
-    defaultAction: function(actions){
-      // We have no matching route, lets display the home page 
-      mainHomeView.render(); 
+
+    showHomePage: function(actions){
+      homePage.render(); 
     }
   });
 
@@ -35,6 +36,7 @@ define([
     var app_router = new AppRouter;
     Backbone.history.start();
   };
+
   return { 
     initialize: initialize
   };

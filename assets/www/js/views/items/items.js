@@ -1,11 +1,11 @@
-// Filename: views/projects/list
 define([
   'jQuery',
   'underscore',
   'backbone',
+  
   // Pull in the Collection module from above
   'collections/projects',
-  'text!templates/projects/list.html'
+  'text!templates/items/items.html'
 
 ], function($, _, Backbone, projectsCollection, projectListTemplate){
   var projectListView = Backbone.View.extend({

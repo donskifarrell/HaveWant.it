@@ -10,7 +10,7 @@ require.config({
   },
   shim: {
           'cordova': {
-            exports: "Navigator"
+            exports: "navigator"
           },
           'jQuery': {
             exports: "$"
@@ -28,14 +28,7 @@ require.config({
           },
           'jQuery.mobile-config': ['jQuery'],
           'jQuery.mobile': ['jQuery','jQuery.mobile-config'],
-        },
-  text: {
-    useXhr: function (url, protocol, hostname, port) {
-      // allow cross-domain requests
-      // remote server allows CORS
-      return true;
-    }
-  }
+        }
 });
 
 require([
@@ -45,8 +38,8 @@ require([
   'underscore',
   'backbone',
   'app',
-], function($, jQMobile, cordova, _, Backbone, App){
-  // The "app" dependency is passed in as "App"
-  // Again, the other dependencies passed in are not "AMD" therefore don't pass a parameter to this function
-  App.initialize();
+], function($, jQMobile, navigator, _, Backbone, App){
+  $(document).ready(function() {
+    App.initialize();
+  });
 });
