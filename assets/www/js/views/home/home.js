@@ -11,7 +11,6 @@ function($, _, Backbone, mainHomeTemplate){
     el: '#page',
 
     render: function(){
-      console.log("Renasderas****main*");
       this.$el.html(mainHomeTemplate);
     }
   });

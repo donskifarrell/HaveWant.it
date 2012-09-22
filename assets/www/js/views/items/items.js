@@ -11,8 +11,7 @@ define([
   var projectListView = Backbone.View.extend({
     el: $("#page"),
     initialize: function(){
-
-      console.log("init project****main*");
+      console.log("Initialised Items Page");
       this.collection = projectsCollection;
       this.collection.bind("add", this.exampleBind);
       this.collection = projectsCollection.add({ name: "Twitter"});

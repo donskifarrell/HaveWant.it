@@ -14,13 +14,11 @@ function($, navigator, _, Backbone, userListTemplate){
 
     initialize: function(){
       document.addEventListener("deviceready", this.onDeviceReady,false);
-      console.log("init users****main*");
+      console.log("Initialised AddItems Page");
     },
 
     render: function(){
-      console.log("Rtcameras*");
-      this.capturePhoto()
-      console.log("Renasderas****users*");
+      this.getPhoto(pictureSource.PHOTOLIBRARY);
       var data = {};
       var compiledTemplate = _.template( userListTemplate, data );
       this.$el.html( compiledTemplate ); 
@@ -28,7 +26,7 @@ function($, navigator, _, Backbone, userListTemplate){
 
     pictureSource: '',
     destinationType: '',
-    
+
     // Cordova is ready to be used!
     //
     onDeviceReady: function() {
@@ -81,7 +79,8 @@ function($, navigator, _, Backbone, userListTemplate){
     capturePhoto: function() {
       // Take picture using device camera and retrieve image as base64-encoded string
       navigator.camera.getPicture(this.onPhotoDataSuccess, this.onFail, { quality: 50,
-        destinationType: this.destinationType.DATA_URL });
+        destinationType: this.destinationType.DATA_URL, 
+        pictureSourceType: this.pictureSource.PHOTOLIBRARY });
     },
 
     // A button will call this function
