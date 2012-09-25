@@ -7,14 +7,16 @@ define([
   'views/home/home',
   'views/items/items',
   'views/addItem/addItem',
-  'views/addItem/selectFromGallery'
+  'views/addItem/galleryImages',
+  'views/addItem/cameraImages'
 ], 
 
 function(navigator, $, _, Backbone, 
   homePage, 
-  itemsListView, 
-  addNewItemView,
-  selectFromGallery
+  itemsList, 
+  addNewItem,
+  galleryImages,
+  cameraImages
 ){
 
   var AppRouter = Backbone.Router.extend({
@@ -28,19 +30,19 @@ function(navigator, $, _, Backbone,
     },
 
     showItems: function(){
-      itemsListView.render();
+      itemsList.render();
     },
 
     addNewItem: function(){
-      addNewItemView.render();
+      addNewItem.render();
     },
 
     useCamera: function(){
-      addNewItemView.useCamera();
+      cameraImages.render();
     },
 
     useGallery: function(){
-      selectFromGallery.render();
+      galleryImages.render();
     },
 
     showHomePage: function(actions){

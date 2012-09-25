@@ -27,7 +27,7 @@ function($, _, Backbone, aTemplate){
     },
 
     render: function(){
-      this.$el.html(aTemplate);
+      this.$el.html(aTemplate).trigger('create');
     }
   });
 

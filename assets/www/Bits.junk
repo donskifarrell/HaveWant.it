@@ -1,0 +1,123 @@
+Bits:
+
+
+<div data-role="page" id="homePage">
+
+  <div data-role="header">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="a.html" class="ui-btn-active">One</a></li>
+        <li><a href="b.html">Two</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="content"> 
+    <p>I'm first in the source order so I'm shown as the page.</p>    
+    <p>View internal page called <a href="#bar">bar</a></p> 
+  </div>
+
+</div> 
+
+
+=========================================================
+
+
+    useCamera: function(){
+      this.capturePhoto();
+    },
+
+    useGallery: function(){
+      this.getPhoto(this.pictureSource.PHOTOLIBRARY);
+    },
+
+    pictureSource: '',
+    destinationType: '',
+
+    // Cordova is ready to be used!
+    //
+    onDeviceReady: function() {
+        this.pictureSource = navigator.camera.PictureSourceType;
+        this.destinationType = navigator.camera.DestinationType;
+    },
+
+    // Called when a photo is successfully retrieved
+    //
+    onPhotoDataSuccess: function(imageData) {
+      // Uncomment to view the base64 encoded image data
+      // console.log(imageData);
+
+      // Get image handle
+      //
+      var smallImage = document.getElementById('smallImage');
+
+      // Unhide image elements
+      //
+      smallImage.style.display = 'block';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      smallImage.src = "data:image/jpeg;base64," + imageData;
+    },
+
+    // Called when a photo is successfully retrieved
+    //
+    onPhotoURISuccess: function(imageURI) {
+      // Uncomment to view the image file URI 
+      // console.log(imageURI);
+
+      // Get image handle
+      //
+      var largeImage = document.getElementById('largeImage');
+
+      // Unhide image elements
+      //
+      largeImage.style.display = 'block';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      largeImage.src = imageURI;
+    },
+
+    // A button will call this function
+    //
+    capturePhoto: function() {
+      // Take picture using device camera and retrieve image as base64-encoded string
+      navigator.camera.getPicture(this.onPhotoDataSuccess, this.onFail, { quality: 50,
+        destinationType: this.destinationType.DATA_URL, 
+        pictureSourceType: this.pictureSource.CAMERA });
+    },
+
+    // A button will call this function
+    //
+    capturePhotoEdit: function() {
+      // Take picture using device camera, allow edit, and retrieve image as base64-encoded string  
+      navigator.camera.getPicture(this.onPhotoDataSuccess, this.onFail, { quality: 20, allowEdit: true,
+        destinationType: this.destinationType.DATA_URL });
+    },
+
+    // A button will call this function
+    //
+    getPhoto: function(source) {
+      // Retrieve image file location from specified source
+      alert('Gallery!');
+      navigator.camera.getPicture(
+        this.onPhotoURISuccess, 
+        this.onFail, 
+        { 
+          quality: 50, 
+          allowEdit: true,
+          destinationType: Camera.DestinationType.DATA_URL, 
+          sourceType: Camera.PictureSourceType.PHOTOLIBRARY, 
+          allowEdit: false, 
+          mediaType: Camera.MediaType.PICTURE,
+        });
+    },
+
+    // Called if something bad happens.
+    // 
+    onFail: function(message) {
+      alert('Failed because: ' + message);
+    }
