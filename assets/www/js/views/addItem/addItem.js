@@ -18,10 +18,17 @@ function($, navigator, _, Backbone, userListTemplate){
     },
 
     render: function(){
-      this.getPhoto(pictureSource.PHOTOLIBRARY);
       var data = {};
       var compiledTemplate = _.template( userListTemplate, data );
-      this.$el.html( compiledTemplate ); 
+      this.$el.html( compiledTemplate ).trigger('create'); 
+    },
+
+    useCamera: function(){
+      this.capturePhoto();
+    },
+
+    useGallery: function(){
+      this.getPhoto(this.pictureSource.PHOTOLIBRARY);
     },
 
     pictureSource: '',
@@ -80,7 +87,7 @@ function($, navigator, _, Backbone, userListTemplate){
       // Take picture using device camera and retrieve image as base64-encoded string
       navigator.camera.getPicture(this.onPhotoDataSuccess, this.onFail, { quality: 50,
         destinationType: this.destinationType.DATA_URL, 
-        pictureSourceType: this.pictureSource.PHOTOLIBRARY });
+        pictureSourceType: this.pictureSource.CAMERA });
     },
 
     // A button will call this function
@@ -95,9 +102,18 @@ function($, navigator, _, Backbone, userListTemplate){
     //
     getPhoto: function(source) {
       // Retrieve image file location from specified source
-      navigator.camera.getPicture(this.onPhotoURISuccess, this.onFail, { quality: 50, 
-        destinationType: this.destinationType.FILE_URI,
-        sourceType: source });
+      alert('Gallery!');
+      navigator.camera.getPicture(
+        this.onPhotoURISuccess, 
+        this.onFail, 
+        { 
+          quality: 50, 
+          allowEdit: true,
+          destinationType: Camera.DestinationType.DATA_URL, 
+          sourceType: Camera.PictureSourceType.PHOTOLIBRARY, 
+          allowEdit: false, 
+          mediaType: Camera.MediaType.PICTURE,
+        });
     },
 
     // Called if something bad happens.

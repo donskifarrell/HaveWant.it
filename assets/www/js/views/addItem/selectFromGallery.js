@@ -9,12 +9,12 @@ function($, _, Backbone){
     el: '#page',
 
     initialize: function(){
-      document.addEventListener("deviceready", this.onDeviceReady,false);
       console.log("Initialised Select From Gallery Page");
     },
 
     render: function(){
-      this.$el.html(mainHomeTemplate);
+      alert('Galleryasdasd!');
+      this.$el.html(mainHomeTemplate).trigger('create');
     }
   });
 

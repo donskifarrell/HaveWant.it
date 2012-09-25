@@ -29,7 +29,7 @@ define([
         _: _ 
       };
       var compiledTemplate = _.template( projectListTemplate, data );
-      $("#page").html( compiledTemplate ); 
+      $("#page").html( compiledTemplate ).trigger('create'); 
     }
   });
   return new projectListView;

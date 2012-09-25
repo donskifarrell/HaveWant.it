@@ -11,7 +11,7 @@ function($, _, Backbone, mainHomeTemplate){
     el: '#page',
 
     render: function(){
-      this.$el.html(mainHomeTemplate);
+      this.$el.html(mainHomeTemplate).trigger('create');
     }
   });
 
