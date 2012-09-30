@@ -101,3 +101,208 @@ D/DroidGap( 3628): onMessage(networkconnection,wifi)
 D/CordovaLog( 3628): Gallery Page: Device Ready
 D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
 D/DroidGap( 3628): onMessage(spinner,stop)
+D/DroidGap( 3628): Paused the application!
+D/CordovaWebView( 3628): Handle the pause
+D/CordovaWebView( 3628): >>> loadUrlNow()
+I/CordovaLog( 4568): Changing log level to DEBUG(3)
+I/CordovaLog( 4568): Found preference for useBrowserHistory=false
+D/CordovaLog( 4568): Found preference for useBrowserHistory=false
+D/DroidGap( 4568): DroidGap.init()
+D/CordovaWebView( 4568): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView( 4568): >>> loadUrlNow()
+D/DroidGap( 4568): Resuming the App
+D/DroidGap( 4568): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/CordovaLog( 4568): Initialised Add New Items Page
+D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog( 4568): Initialised Camera Page
+D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog( 4568): Initialised jQueryConfig
+D/CordovaLog( 4568): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog( 4568): Initialised Items Page
+D/CordovaLog( 4568): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+D/CordovaLog( 4568): Initialised Gallery Page
+D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
+D/CordovaLog( 4568): Rendering Home Page
+D/CordovaLog( 4568): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
+E/CordovaWebView( 4568): CordovaWebView: TIMEOUT ERROR!
+D/Cordova ( 4568): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
+D/DroidGap( 4568): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
+D/Cordova ( 4568): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView( 4568): >>> loadUrlNow()
+D/DroidGap( 4568): onMessage(onNativeReady,null)
+D/DroidGap( 4568): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap( 4568): onMessage(networkconnection,wifi)
+D/CordovaLog( 4568): Gallery Page: Device Ready
+D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
+D/DroidGap( 4568): onMessage(spinner,stop)
+D/DroidGap( 4568): Paused the application!
+D/DroidGap( 4568): onDestroy()
+D/CordovaWebView( 4568): >>> loadUrlNow()
+D/CordovaWebView( 4568): >>> loadUrlNow()
+D/CordovaLog( 4568): JSCallback Error: Request failed with status 0
+D/CordovaLog( 4568): file:///android_asset/www/js/libs/cordova/cordova.js: Line 3743 : JSCallback Error: Request failed with status 0
+D/DroidGap( 4568): onMessage(onPageStarted,about:blank)
+D/Cordova ( 4568): onPageFinished(about:blank)
+D/DroidGap( 4568): onMessage(onPageFinished,about:blank)
+D/DroidGap( 4568): onMessage(exit,null)
+I/CordovaLog( 4794): Changing log level to DEBUG(3)
+I/CordovaLog( 4794): Found preference for useBrowserHistory=false
+D/CordovaLog( 4794): Found preference for useBrowserHistory=false
+D/DroidGap( 4794): DroidGap.init()
+D/CordovaWebView( 4794): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView( 4794): >>> loadUrlNow()
+D/DroidGap( 4794): Resuming the App
+D/DroidGap( 4794): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/Cordova ( 4794): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView( 4794): >>> loadUrlNow()
+D/DroidGap( 4794): onMessage(onNativeReady,null)
+D/DroidGap( 4794): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap( 4794): onMessage(networkconnection,wifi)
+D/DroidGap( 4794): onMessage(spinner,stop)
+D/CordovaLog( 4794): Initialised Add New Items Page
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog( 4794): Initialised Camera Page
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog( 4794): Initialised jQueryConfig
+D/CordovaLog( 4794): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog( 4794): Initialised Items Page
+D/CordovaLog( 4794): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+D/CordovaLog( 4794): Gallery Page: Device Ready
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
+D/CordovaLog( 4794): Initialised Gallery Page
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
+D/CordovaLog( 4794): Rendering Home Page
+D/CordovaLog( 4794): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
+D/DroidGap( 4794): onMessage(spinner,stop)
+D/Cordova ( 4794): onPageFinished(file:///android_asset/www/index.html#additem)
+D/CordovaWebView( 4794): >>> loadUrlNow()
+D/DroidGap( 4794): onMessage(onNativeReady,null)
+D/DroidGap( 4794): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
+D/Cordova ( 4794): onPageFinished(file:///android_asset/www/index.html#useGallery)
+D/CordovaWebView( 4794): >>> loadUrlNow()
+D/DroidGap( 4794): onMessage(onNativeReady,null)
+D/DroidGap( 4794): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
+D/CordovaLog( 4794): Gallery Page - Render
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 117 : Gallery Page - Render
+D/CordovaLog( 4794):  - Getting FileSystem and Photos
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 120 :  - Getting FileSystem and Photos
+D/CordovaLog( 4794): Got the file system: persistent
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Got the file system: persistent
+D/CordovaLog( 4794): Root entry name is sdcard
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 33 : Root entry name is sdcard
+D/CordovaLog( 4794): Photo Gallery complete
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 47 : Photo Gallery complete
+D/CordovaLog( 4794): Rendering Photos
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 56 : Rendering Photos
+D/CordovaLog( 4794): listDir..
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 62 : listDir..
+D/CordovaLog( 4794): Entries Length: - 3
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 68 : Entries Length: - 3
+I/CordovaThumbnailer( 4794): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200729.jpg
+I/CordovaThumbnailer( 4794): Image thumbnail already exists
+I/CordovaThumbnailer( 4794): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200720.jpg
+I/CordovaThumbnailer( 4794): Image thumbnail already exists
+D/CordovaLog( 4794): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
+D/CordovaLog( 4794): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
+D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
+I/CordovaLog( 5026): Changing log level to DEBUG(3)
+I/CordovaLog( 5026): Found preference for useBrowserHistory=false
+D/CordovaLog( 5026): Found preference for useBrowserHistory=false
+D/DroidGap( 5026): DroidGap.init()
+D/CordovaWebView( 5026): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): Resuming the App
+D/DroidGap( 5026): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): onMessage(onNativeReady,null)
+D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap( 5026): onMessage(networkconnection,wifi)
+D/DroidGap( 5026): onMessage(spinner,stop)
+D/CordovaLog( 5026): Initialised Add New Items Page
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog( 5026): Initialised Camera Page
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog( 5026): Initialised jQueryConfig
+D/CordovaLog( 5026): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog( 5026): Initialised Items Page
+D/CordovaLog( 5026): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+D/CordovaLog( 5026): Gallery Page: Device Ready
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
+D/CordovaLog( 5026): Initialised Gallery Page
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
+D/CordovaLog( 5026): Rendering Home Page
+D/CordovaLog( 5026): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
+D/DroidGap( 5026): onMessage(spinner,stop)
+D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#additem)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): onMessage(onNativeReady,null)
+D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
+D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#useGallery)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): onMessage(onNativeReady,null)
+D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
+D/CordovaLog( 5026): Gallery Page - Render
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 117 : Gallery Page - Render
+D/CordovaLog( 5026):  - Getting FileSystem and Photos
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 120 :  - Getting FileSystem and Photos
+D/CordovaLog( 5026): Got the file system: persistent
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Got the file system: persistent
+D/CordovaLog( 5026): Root entry name is sdcard
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 33 : Root entry name is sdcard
+D/CordovaLog( 5026): Photo Gallery complete
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 47 : Photo Gallery complete
+D/CordovaLog( 5026): Rendering Photos
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 56 : Rendering Photos
+D/CordovaLog( 5026): listDir..
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 62 : listDir..
+D/CordovaLog( 5026): Entries Length: - 3
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 68 : Entries Length: - 3
+I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200729.jpg
+I/CordovaThumbnailer( 5026): Image thumbnail already exists
+I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200720.jpg
+I/CordovaThumbnailer( 5026): Image thumbnail already exists
+D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
+D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
+D/DroidGap( 5026): Paused the application!
+D/CordovaWebView( 5026): Handle the pause
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): Resuming the App
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#additem)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): onMessage(onNativeReady,null)
+D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
+D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#useGallery)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): onMessage(onNativeReady,null)
+D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
+D/CordovaLog( 5026): Gallery Page - Render
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 117 : Gallery Page - Render
+D/CordovaLog( 5026):  - Getting FileSystem and Photos
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 120 :  - Getting FileSystem and Photos
+D/CordovaLog( 5026): Got the file system: persistent
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Got the file system: persistent
+D/CordovaLog( 5026): Root entry name is sdcard
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 33 : Root entry name is sdcard
+D/CordovaLog( 5026): Photo Gallery complete
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 47 : Photo Gallery complete
+D/CordovaLog( 5026): Rendering Photos
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 56 : Rendering Photos
+D/CordovaLog( 5026): listDir..
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 62 : listDir..
+D/CordovaLog( 5026): Entries Length: - 2
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 68 : Entries Length: - 2
+I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200729.jpg
+I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200720.jpg
+D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
+D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
+D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
+D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#additem)
+D/CordovaWebView( 5026): >>> loadUrlNow()
+D/DroidGap( 5026): onMessage(onNativeReady,null)
+D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
