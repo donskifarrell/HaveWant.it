@@ -1,0 +1,103 @@
+--------- beginning of /dev/log/main
+--------- beginning of /dev/log/system
+I/CordovaLog( 3498): Changing log level to DEBUG(3)
+I/CordovaLog( 3498): Found preference for useBrowserHistory=false
+D/CordovaLog( 3498): Found preference for useBrowserHistory=false
+D/DroidGap( 3498): DroidGap.init()
+D/CordovaWebView( 3498): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView( 3498): >>> loadUrlNow()
+D/DroidGap( 3498): Resuming the App
+D/DroidGap( 3498): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/CordovaLog( 3498): Uncaught SyntaxError: Unexpected token :
+D/CordovaLog( 3498): file:///android_asset/www/js/libs/thumbnailer/thumbnailer.js: Line 20 : Uncaught SyntaxError: Unexpected token :
+D/CordovaLog( 3498): Uncaught TypeError: Cannot read property 'thumbnailer' of undefined
+D/CordovaLog( 3498): file:///android_asset/www/js/init.js: Line 30 : Uncaught TypeError: Cannot read property 'thumbnailer' of undefined
+D/CordovaLog( 3498): Initialised jQueryConfig
+D/CordovaLog( 3498): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog( 3498): Initialised Add New Items Page
+D/CordovaLog( 3498): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog( 3498): Initialised Camera Page
+D/CordovaLog( 3498): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog( 3498): Initialised Items Page
+D/CordovaLog( 3498): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+E/CordovaWebView( 3498): CordovaWebView: TIMEOUT ERROR!
+D/Cordova ( 3498): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
+D/DroidGap( 3498): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
+D/Cordova ( 3498): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView( 3498): >>> loadUrlNow()
+D/DroidGap( 3498): onMessage(onNativeReady,null)
+D/DroidGap( 3498): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap( 3498): onMessage(networkconnection,wifi)
+D/DroidGap( 3498): onMessage(spinner,stop)
+I/CordovaLog( 3628): Changing log level to DEBUG(3)
+I/CordovaLog( 3628): Found preference for useBrowserHistory=false
+D/CordovaLog( 3628): Found preference for useBrowserHistory=false
+D/DroidGap( 3628): DroidGap.init()
+D/CordovaWebView( 3628): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView( 3628): >>> loadUrlNow()
+D/DroidGap( 3628): Resuming the App
+D/DroidGap( 3628): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/CordovaLog( 3628): Initialised jQueryConfig
+D/CordovaLog( 3628): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog( 3628): Initialised Add New Items Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog( 3628): Initialised Gallery Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
+D/CordovaLog( 3628): Initialised Camera Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog( 3628): Initialised Items Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+E/CordovaWebView( 3628): CordovaWebView: TIMEOUT ERROR!
+D/Cordova ( 3628): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
+D/DroidGap( 3628): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
+D/Cordova ( 3628): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView( 3628): >>> loadUrlNow()
+D/DroidGap( 3628): onMessage(onNativeReady,null)
+D/DroidGap( 3628): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap( 3628): onMessage(networkconnection,wifi)
+D/CordovaLog( 3628): Gallery Page: Device Ready
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
+D/DroidGap( 3628): onMessage(spinner,stop)
+D/DroidGap( 3628): Paused the application!
+D/DroidGap( 3628): onDestroy()
+D/CordovaWebView( 3628): >>> loadUrlNow()
+D/CordovaWebView( 3628): >>> loadUrlNow()
+D/CordovaLog( 3628): JSCallback Error: Request failed with status 0
+D/CordovaLog( 3628): file:///android_asset/www/js/libs/cordova/cordova.js: Line 3743 : JSCallback Error: Request failed with status 0
+D/DroidGap( 3628): onMessage(onPageStarted,about:blank)
+D/Cordova ( 3628): onPageFinished(about:blank)
+D/DroidGap( 3628): onMessage(onPageFinished,about:blank)
+D/DroidGap( 3628): onMessage(exit,null)
+D/DroidGap( 3628): DroidGap.onCreate()
+D/CordovaWebView( 3628): Origin to allow: http://127.0.0.1*
+D/CordovaWebView( 3628): Origin to allow: file://*
+I/CordovaLog( 3628): Found log level DEBUG
+I/CordovaLog( 3628): Changing log level to DEBUG(3)
+I/CordovaLog( 3628): Found preference for useBrowserHistory=false
+D/CordovaLog( 3628): Found preference for useBrowserHistory=false
+D/DroidGap( 3628): DroidGap.init()
+D/CordovaWebView( 3628): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView( 3628): >>> loadUrlNow()
+D/DroidGap( 3628): Resuming the App
+D/DroidGap( 3628): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/CordovaLog( 3628): Initialised jQueryConfig
+D/CordovaLog( 3628): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog( 3628): Initialised Add New Items Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog( 3628): Initialised Gallery Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
+D/CordovaLog( 3628): Initialised Camera Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog( 3628): Initialised Items Page
+D/CordovaLog( 3628): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+E/CordovaWebView( 3628): CordovaWebView: TIMEOUT ERROR!
+D/Cordova ( 3628): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
+D/DroidGap( 3628): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
+D/Cordova ( 3628): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView( 3628): >>> loadUrlNow()
+D/DroidGap( 3628): onMessage(onNativeReady,null)
+D/DroidGap( 3628): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap( 3628): onMessage(networkconnection,wifi)
+D/CordovaLog( 3628): Gallery Page: Device Ready
+D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
+D/DroidGap( 3628): onMessage(spinner,stop)

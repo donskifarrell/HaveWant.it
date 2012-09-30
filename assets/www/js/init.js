@@ -6,6 +6,9 @@ require.config({
     'jQuery.mobile': 'libs/jquery/jquery.mobile-min',
     'underscore': 'libs/underscore/underscore-min',
     'backbone': 'libs/backbone/backbone-min',
+    'thumbnailer': 'libs/thumbnailer/thumbnailer',
+    'klass': 'libs/photoswipe/klass.min',
+    'photoswipe': 'libs/photoswipe/photoswipe.jquery.min',
     templates: '../templates'
   },
   shim: {
@@ -19,12 +22,21 @@ require.config({
             exports: "_"
           },
           'backbone': {
-              //These script dependencies should be loaded before loading
-              //backbone.js
               deps: ['jQuery','underscore'],
-              //Once loaded, use the global 'Backbone' as the
-              //module value.
               exports: 'Backbone'
+          },            
+          'thumbnailer': {
+              exports: function(){ 
+                this.thumbnailer = window.plugins.thumbnailer;
+                return this.thumbnailer;
+              }
+          },          
+          'photoswipe': {
+              deps: ['jQuery', 'klass'],
+              exports: function(){ 
+                this.PhotoSwipe = window.Code.PhotoSwipe;
+                return this.PhotoSwipe;
+              }
           },
           'jQuery.mobile-config': ['jQuery'],
           'jQuery.mobile': ['jQuery','jQuery.mobile-config'],
@@ -37,8 +49,11 @@ require([
   'cordova',
   'underscore',
   'backbone',
+  'thumbnailer',
+  'klass',
+  'photoswipe',
   'app',
-], function($, jQMobile, navigator, _, Backbone, App){
+], function($, jQMobile, navigator, _, Backbone, thumbnailer, klass, PhotoSwipe, App){
   $(document).ready(function() {
     App.initialize();
   });
