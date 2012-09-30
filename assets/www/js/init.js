@@ -45,15 +45,8 @@ require.config({
 
 require([
   'jQuery',
-  'jQuery.mobile',
-  'cordova',
-  'underscore',
-  'backbone',
-  'thumbnailer',
-  'klass',
-  'photoswipe',
   'app',
-], function($, jQMobile, navigator, _, Backbone, thumbnailer, klass, PhotoSwipe, App){
+], function($, App){
   $(document).ready(function() {
     App.initialize();
   });

@@ -41,6 +41,7 @@ function Thumbnailer() {
 		    cordova.exec(callback, this.thumbError, "Thumbnailer", "createImageThumbnail", [url, dimensions]);
 		},
 
+		// not working yet.
 		createAlbumThumbnails: function(path, callback, dimensions) {
 			if (url.toLowerCase().indexOf("pg_thumbs") >= 0){
 				alert("Already within a thumbnail directory!");

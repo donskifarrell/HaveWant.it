@@ -1,7 +1,4 @@
 define([
-  'cordova',
-  'jQuery',
-  'underscore',
   'backbone',
 
   'views/home/home',
@@ -11,7 +8,8 @@ define([
   'views/addItem/cameraImages'
 ], 
 
-function(navigator, $, _, Backbone, 
+function(
+  Backbone, 
   homePage, 
   itemsList, 
   addNewItem,
