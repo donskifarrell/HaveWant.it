@@ -10,49 +10,63 @@
  * Constructor
  */
 function Thumbnailer() {
-	var THUMBNAIL_HEIGHT = 48;
-	var THUMBNAIL_WIDTH = 66;
+	var config = {
+		THUMBNAIL_HEIGHT: 48,
+		THUMBNAIL_WIDTH: 66,
+		IMAGE_MAX_SIZE: 70,
+		THUMB_DIR_NAME: 'pg_thumbs',
+		ALLOW_SUB_DIRS: false
+	}
+
+	var JAVA_CLASS = 'Thumbnailer',
+		CREATE_VIDEO = 'createVideoThumbnail',
+		CREATE_IMAGE = 'createImageThumbnail',
+		CREATE_ALBUM = 'createAlbumThumbnails';
 
 	function thumbError(err){
 		alert('Error creating thumbnail(s): ' + err);
 	};
 
+	function isUrlValid(url){
+		return (url.toLowerCase().indexOf(config.THUMB_DIR_NAME) >= 0) ? 
+			"Already within a thumbnail directory!" : true;
+	};
+
+	function cleanUrl(url){
+		return (url.toLowerCase().indexOf("file://") == 0) ? url.substring(7) : url;
+	};
+
+	function executeAction(url, callback, action){
+		var result = isUrlValid(url);
+		if (result == true) {
+			url = cleanUrl(url);
+		} else {
+			console.log("Ignoring call: " + result);
+			return;
+		}
+		cordova.exec(callback, thumbError, JAVA_CLASS, action, [url, config]);
+	}
+
 	return {
-		createVideoThumbnail: function(url, callback) {	
-			if (url.toLowerCase().indexOf("pg_thumbs") >= 0){
-				return;
+		setOptions: function(options){
+			if(options) {
+			    for(prop in options){
+			    	// error checking?
+			        config[prop] = options[prop];
+			    }
 			}
-			if (url.toLowerCase().indexOf("file://")==0){
-				url =url.substring(7); 
-			}
-
-		    cordova.exec(callback, this.thumbError, "Thumbnailer", "createVideoThumbnail", [url]);
 		},
 
-		createImageThumbnail: function(url, callback, dimensions) {
-			if (url.toLowerCase().indexOf("pg_thumbs") >= 0){
-				return;
-			}
-			if (url.toLowerCase().indexOf("file://")==0){
-				url =url.substring(7); 
-			}
-
-			dimensions = (typeof dimensions === "undefined") ? [ THUMBNAIL_WIDTH, THUMBNAIL_HEIGHT ] : dimensions;
-		    cordova.exec(callback, this.thumbError, "Thumbnailer", "createImageThumbnail", [url, dimensions]);
+		createVideoThumbnail: function(url, callback) {
+			executeAction(url, callback, CREATE_VIDEO);
 		},
 
-		// not working yet.
-		createAlbumThumbnails: function(path, callback, dimensions) {
-			if (url.toLowerCase().indexOf("pg_thumbs") >= 0){
-				alert("Already within a thumbnail directory!");
-				return;
-			}
-			if (url.toLowerCase().indexOf("file://")==0){
-				url =url.substring(7); 
-			}
+		createImageThumbnail: function(url, callback) {
+			executeAction(url, callback, CREATE_IMAGE);
+		},
 
-			dimensions = (typeof dimensions === "undefined") ? [ THUMBNAIL_WIDTH, THUMBNAIL_HEIGHT ] : dimensions;
-		    cordova.exec(callback, this.thumbError, "Thumbnailer", "createAlbumThumbnails", [url, dimensions]);
+		createAlbumThumbnails: function(url, callback) {
+			executeAction(url, callback, CREATE_ALBUM);
 		}
 	}
 };

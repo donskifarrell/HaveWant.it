@@ -16,9 +16,8 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate){
     initialize: function(){
       _.bindAll(this, 'fsRequestSuccess');
       _.bindAll(this, 'fsRequestError');
-      _.bindAll(this, 'renderPhotos');
-      _.bindAll(this, 'listDir');
-      _.bindAll(this, 'gotFiles');
+      _.bindAll(this, 'generateThumbs');
+      _.bindAll(this, 'renderThumbs');
 
       document.addEventListener("deviceready", this.onDeviceReady, true);
       console.log("Initialised Gallery Page");
@@ -33,18 +32,11 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate){
       console.log("Root entry name is "+ fs.root.name);  
 
       var sdcard = fs.root;
-      //sdcard.createReader().readEntries(this.gotFiles, this.fsRequestError);
-      sdcard.getDirectory('DCIM/TEST', { create: false }, this.renderPhotos, this.fsRequestError);
-/*
-      console.log("*********************Gasdasd Ready");
-      this.fileSystem = fs;          
-        
-        console.log("Got the file system: " + this.fileSystem.name);
-        console.log("Root entry name is "+ this.fileSystem.root.name);  
-        var dirReader = this.fileSystem.root.createReader();
-        var hmm = dirReader.readEntries(this.gotFiles, this.fsRequestError); 
-*/
-      console.log("Photo Gallery complete");
+      sdcard.getDirectory(
+        'DCIM/Camera', 
+        { create: false }, 
+        this.generateThumbs, 
+        this.fsRequestError);
     },
 
     fsRequestError: function(e) {
@@ -52,68 +44,30 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate){
       console.log("File System Error: " + e.toString());
     },
 
-    renderPhotos: function(DCIM) {
-      console.log("Rendering Photos");
-      var gallery = $('#gallery');
-      this.listDir(DCIM, gallery);
+    generateThumbs: function(albumDir) {
+      console.log("Generating Thumbnails");
+
+      $.mobile.showPageLoadingMsg();
+      thumbnailer.createAlbumThumbnails(albumDir.fullPath, this.renderThumbs);
     },
 
-    listDir: function(directoryEntry, domParent) {
-      console.log("listDir..");
-      $.mobile.showPageLoadingMsg(); // show loading message
-   
-      var directoryReader = directoryEntry.createReader();
-   
-      directoryReader.readEntries(function(entries){ // success get files and folders
-          console.log("Entries Length: - " + entries.length);
-          for(var i = 0; i < entries.length; ++i){
+    renderThumbs: function(thumbPaths) {
+      console.log("Rendering Thumbnails");
+      this.printResults(thumbPaths);
 
-            function loadThumbnail(thumbPath){
-              thumbPath = "file://" + thumbPath;
-              console.log("Thumbpath: " + thumbPath);
+      for (img in thumbPaths) {
+        $('#gallery')
+          .append('<li><a href="' + 
+            img + '"><img src="' + 
+            thumbPaths[img] + '"/></a></li>');
+      }
 
-              if( i%2 == 0) {
-                domParent.append(
-                  '<div class="ui-block-a"><div class="thumbnail"><img src="' + 
-                  thumbPath
-                  + '"/></div></div>');
-              }
-              else {
-                domParent.append(
-                  '<div class="ui-block-b"><div class="thumbnail"><img src="' +
-                  thumbPath
-                  + '"/></div></div>');
-              }
-            }
-            thumbnailer.createImageThumbnail(entries[i].fullPath, loadThumbnail);
-            //console.log(entries[i].name);
-          }
-          $.mobile.hidePageLoadingMsg(); // hide loading message
-      }, function(error){ // error get files and folders
-          alert(error.code);
-      });
+      $.mobile.hidePageLoadingMsg();
+      var options = {};
+      $("#Gallery a").photoSwipe(options);
     },
 
-    gotFiles: function(entries) {
-
-      console.log("***got files - " + entries.length);
-        var s = "";
-        for(var i=0, len=entries.length; i<len; i++) {
-            //entry objects include: isFile, isDirectory, name, fullPath
-            s+= entries[i].fullPath;
-            if (entries[i].isFile) {
-                s += " [F]";
-            }
-            else {
-                s += " [D]";
-            }
-            s += " ";
-            
-        }
-        console.log(s);
-    },
-
-    render: function(){      
+    render: function() {      
       console.log("Gallery Page - Render");
       this.$el.html(galleryImagesTemplate).trigger('create');
       try{
@@ -123,6 +77,14 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate){
       catch(err){        
         console.log(" - Getting FileSystem Failed");
       }
+    },
+
+    printResults: function(results) {
+      console.log("Print Results: ");
+      for (property in results) {
+        console.log(property + ': ' + results[property]);
+      }
+      console.log("===================");
     }
   });
 

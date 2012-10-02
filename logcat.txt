@@ -1,308 +1,375 @@
 --------- beginning of /dev/log/main
 --------- beginning of /dev/log/system
-I/CordovaLog( 3498): Changing log level to DEBUG(3)
-I/CordovaLog( 3498): Found preference for useBrowserHistory=false
-D/CordovaLog( 3498): Found preference for useBrowserHistory=false
-D/DroidGap( 3498): DroidGap.init()
-D/CordovaWebView( 3498): >>> loadUrl(file:///android_asset/www/index.html)
-D/CordovaWebView( 3498): >>> loadUrlNow()
-D/DroidGap( 3498): Resuming the App
-D/DroidGap( 3498): onMessage(onPageStarted,file:///android_asset/www/index.html)
-D/CordovaLog( 3498): Uncaught SyntaxError: Unexpected token :
-D/CordovaLog( 3498): file:///android_asset/www/js/libs/thumbnailer/thumbnailer.js: Line 20 : Uncaught SyntaxError: Unexpected token :
-D/CordovaLog( 3498): Uncaught TypeError: Cannot read property 'thumbnailer' of undefined
-D/CordovaLog( 3498): file:///android_asset/www/js/init.js: Line 30 : Uncaught TypeError: Cannot read property 'thumbnailer' of undefined
-D/CordovaLog( 3498): Initialised jQueryConfig
-D/CordovaLog( 3498): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
-D/CordovaLog( 3498): Initialised Add New Items Page
-D/CordovaLog( 3498): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
-D/CordovaLog( 3498): Initialised Camera Page
-D/CordovaLog( 3498): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
-D/CordovaLog( 3498): Initialised Items Page
-D/CordovaLog( 3498): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
-E/CordovaWebView( 3498): CordovaWebView: TIMEOUT ERROR!
-D/Cordova ( 3498): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
-D/DroidGap( 3498): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
-D/Cordova ( 3498): onPageFinished(file:///android_asset/www/index.html)
-D/CordovaWebView( 3498): >>> loadUrlNow()
-D/DroidGap( 3498): onMessage(onNativeReady,null)
-D/DroidGap( 3498): onMessage(onPageFinished,file:///android_asset/www/index.html)
-D/DroidGap( 3498): onMessage(networkconnection,wifi)
-D/DroidGap( 3498): onMessage(spinner,stop)
-I/CordovaLog( 3628): Changing log level to DEBUG(3)
-I/CordovaLog( 3628): Found preference for useBrowserHistory=false
-D/CordovaLog( 3628): Found preference for useBrowserHistory=false
-D/DroidGap( 3628): DroidGap.init()
-D/CordovaWebView( 3628): >>> loadUrl(file:///android_asset/www/index.html)
-D/CordovaWebView( 3628): >>> loadUrlNow()
-D/DroidGap( 3628): Resuming the App
-D/DroidGap( 3628): onMessage(onPageStarted,file:///android_asset/www/index.html)
-D/CordovaLog( 3628): Initialised jQueryConfig
-D/CordovaLog( 3628): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
-D/CordovaLog( 3628): Initialised Add New Items Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
-D/CordovaLog( 3628): Initialised Gallery Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
-D/CordovaLog( 3628): Initialised Camera Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
-D/CordovaLog( 3628): Initialised Items Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
-E/CordovaWebView( 3628): CordovaWebView: TIMEOUT ERROR!
-D/Cordova ( 3628): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
-D/DroidGap( 3628): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
-D/Cordova ( 3628): onPageFinished(file:///android_asset/www/index.html)
-D/CordovaWebView( 3628): >>> loadUrlNow()
-D/DroidGap( 3628): onMessage(onNativeReady,null)
-D/DroidGap( 3628): onMessage(onPageFinished,file:///android_asset/www/index.html)
-D/DroidGap( 3628): onMessage(networkconnection,wifi)
-D/CordovaLog( 3628): Gallery Page: Device Ready
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
-D/DroidGap( 3628): onMessage(spinner,stop)
-D/DroidGap( 3628): Paused the application!
-D/DroidGap( 3628): onDestroy()
-D/CordovaWebView( 3628): >>> loadUrlNow()
-D/CordovaWebView( 3628): >>> loadUrlNow()
-D/CordovaLog( 3628): JSCallback Error: Request failed with status 0
-D/CordovaLog( 3628): file:///android_asset/www/js/libs/cordova/cordova.js: Line 3743 : JSCallback Error: Request failed with status 0
-D/DroidGap( 3628): onMessage(onPageStarted,about:blank)
-D/Cordova ( 3628): onPageFinished(about:blank)
-D/DroidGap( 3628): onMessage(onPageFinished,about:blank)
-D/DroidGap( 3628): onMessage(exit,null)
-D/DroidGap( 3628): DroidGap.onCreate()
-D/CordovaWebView( 3628): Origin to allow: http://127.0.0.1*
-D/CordovaWebView( 3628): Origin to allow: file://*
-I/CordovaLog( 3628): Found log level DEBUG
-I/CordovaLog( 3628): Changing log level to DEBUG(3)
-I/CordovaLog( 3628): Found preference for useBrowserHistory=false
-D/CordovaLog( 3628): Found preference for useBrowserHistory=false
-D/DroidGap( 3628): DroidGap.init()
-D/CordovaWebView( 3628): >>> loadUrl(file:///android_asset/www/index.html)
-D/CordovaWebView( 3628): >>> loadUrlNow()
-D/DroidGap( 3628): Resuming the App
-D/DroidGap( 3628): onMessage(onPageStarted,file:///android_asset/www/index.html)
-D/CordovaLog( 3628): Initialised jQueryConfig
-D/CordovaLog( 3628): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
-D/CordovaLog( 3628): Initialised Add New Items Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
-D/CordovaLog( 3628): Initialised Gallery Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
-D/CordovaLog( 3628): Initialised Camera Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
-D/CordovaLog( 3628): Initialised Items Page
-D/CordovaLog( 3628): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
-E/CordovaWebView( 3628): CordovaWebView: TIMEOUT ERROR!
-D/Cordova ( 3628): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
-D/DroidGap( 3628): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
-D/Cordova ( 3628): onPageFinished(file:///android_asset/www/index.html)
-D/CordovaWebView( 3628): >>> loadUrlNow()
-D/DroidGap( 3628): onMessage(onNativeReady,null)
-D/DroidGap( 3628): onMessage(onPageFinished,file:///android_asset/www/index.html)
-D/DroidGap( 3628): onMessage(networkconnection,wifi)
-D/CordovaLog( 3628): Gallery Page: Device Ready
-D/CordovaLog( 3628): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
-D/DroidGap( 3628): onMessage(spinner,stop)
-D/DroidGap( 3628): Paused the application!
-D/CordovaWebView( 3628): Handle the pause
-D/CordovaWebView( 3628): >>> loadUrlNow()
-I/CordovaLog( 4568): Changing log level to DEBUG(3)
-I/CordovaLog( 4568): Found preference for useBrowserHistory=false
-D/CordovaLog( 4568): Found preference for useBrowserHistory=false
-D/DroidGap( 4568): DroidGap.init()
-D/CordovaWebView( 4568): >>> loadUrl(file:///android_asset/www/index.html)
-D/CordovaWebView( 4568): >>> loadUrlNow()
-D/DroidGap( 4568): Resuming the App
-D/DroidGap( 4568): onMessage(onPageStarted,file:///android_asset/www/index.html)
-D/CordovaLog( 4568): Initialised Add New Items Page
-D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
-D/CordovaLog( 4568): Initialised Camera Page
-D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
-D/CordovaLog( 4568): Initialised jQueryConfig
-D/CordovaLog( 4568): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
-D/CordovaLog( 4568): Initialised Items Page
-D/CordovaLog( 4568): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
-D/CordovaLog( 4568): Initialised Gallery Page
-D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
-D/CordovaLog( 4568): Rendering Home Page
-D/CordovaLog( 4568): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
-E/CordovaWebView( 4568): CordovaWebView: TIMEOUT ERROR!
-D/Cordova ( 4568): CordovaWebViewClient.onReceivedError: Error code=-6 Description=The connection to the server was unsuccessful. URL=file:///android_asset/www/index.html
-D/DroidGap( 4568): onMessage(onReceivedError,{"errorCode":-6,"url":"file:\/\/\/android_asset\/www\/index.html","description":"The connection to the server was unsuccessful."})
-D/Cordova ( 4568): onPageFinished(file:///android_asset/www/index.html)
-D/CordovaWebView( 4568): >>> loadUrlNow()
-D/DroidGap( 4568): onMessage(onNativeReady,null)
-D/DroidGap( 4568): onMessage(onPageFinished,file:///android_asset/www/index.html)
-D/DroidGap( 4568): onMessage(networkconnection,wifi)
-D/CordovaLog( 4568): Gallery Page: Device Ready
-D/CordovaLog( 4568): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
-D/DroidGap( 4568): onMessage(spinner,stop)
-D/DroidGap( 4568): Paused the application!
-D/DroidGap( 4568): onDestroy()
-D/CordovaWebView( 4568): >>> loadUrlNow()
-D/CordovaWebView( 4568): >>> loadUrlNow()
-D/CordovaLog( 4568): JSCallback Error: Request failed with status 0
-D/CordovaLog( 4568): file:///android_asset/www/js/libs/cordova/cordova.js: Line 3743 : JSCallback Error: Request failed with status 0
-D/DroidGap( 4568): onMessage(onPageStarted,about:blank)
-D/Cordova ( 4568): onPageFinished(about:blank)
-D/DroidGap( 4568): onMessage(onPageFinished,about:blank)
-D/DroidGap( 4568): onMessage(exit,null)
-I/CordovaLog( 4794): Changing log level to DEBUG(3)
-I/CordovaLog( 4794): Found preference for useBrowserHistory=false
-D/CordovaLog( 4794): Found preference for useBrowserHistory=false
-D/DroidGap( 4794): DroidGap.init()
-D/CordovaWebView( 4794): >>> loadUrl(file:///android_asset/www/index.html)
-D/CordovaWebView( 4794): >>> loadUrlNow()
-D/DroidGap( 4794): Resuming the App
-D/DroidGap( 4794): onMessage(onPageStarted,file:///android_asset/www/index.html)
-D/Cordova ( 4794): onPageFinished(file:///android_asset/www/index.html)
-D/CordovaWebView( 4794): >>> loadUrlNow()
-D/DroidGap( 4794): onMessage(onNativeReady,null)
-D/DroidGap( 4794): onMessage(onPageFinished,file:///android_asset/www/index.html)
-D/DroidGap( 4794): onMessage(networkconnection,wifi)
-D/DroidGap( 4794): onMessage(spinner,stop)
-D/CordovaLog( 4794): Initialised Add New Items Page
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
-D/CordovaLog( 4794): Initialised Camera Page
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
-D/CordovaLog( 4794): Initialised jQueryConfig
-D/CordovaLog( 4794): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
-D/CordovaLog( 4794): Initialised Items Page
-D/CordovaLog( 4794): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
-D/CordovaLog( 4794): Gallery Page: Device Ready
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
-D/CordovaLog( 4794): Initialised Gallery Page
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
-D/CordovaLog( 4794): Rendering Home Page
-D/CordovaLog( 4794): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
-D/DroidGap( 4794): onMessage(spinner,stop)
-D/Cordova ( 4794): onPageFinished(file:///android_asset/www/index.html#additem)
-D/CordovaWebView( 4794): >>> loadUrlNow()
-D/DroidGap( 4794): onMessage(onNativeReady,null)
-D/DroidGap( 4794): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
-D/Cordova ( 4794): onPageFinished(file:///android_asset/www/index.html#useGallery)
-D/CordovaWebView( 4794): >>> loadUrlNow()
-D/DroidGap( 4794): onMessage(onNativeReady,null)
-D/DroidGap( 4794): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
-D/CordovaLog( 4794): Gallery Page - Render
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 117 : Gallery Page - Render
-D/CordovaLog( 4794):  - Getting FileSystem and Photos
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 120 :  - Getting FileSystem and Photos
-D/CordovaLog( 4794): Got the file system: persistent
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Got the file system: persistent
-D/CordovaLog( 4794): Root entry name is sdcard
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 33 : Root entry name is sdcard
-D/CordovaLog( 4794): Photo Gallery complete
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 47 : Photo Gallery complete
-D/CordovaLog( 4794): Rendering Photos
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 56 : Rendering Photos
-D/CordovaLog( 4794): listDir..
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 62 : listDir..
-D/CordovaLog( 4794): Entries Length: - 3
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 68 : Entries Length: - 3
-I/CordovaThumbnailer( 4794): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200729.jpg
-I/CordovaThumbnailer( 4794): Image thumbnail already exists
-I/CordovaThumbnailer( 4794): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200720.jpg
-I/CordovaThumbnailer( 4794): Image thumbnail already exists
-D/CordovaLog( 4794): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
-D/CordovaLog( 4794): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
-D/CordovaLog( 4794): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
-I/CordovaLog( 5026): Changing log level to DEBUG(3)
-I/CordovaLog( 5026): Found preference for useBrowserHistory=false
-D/CordovaLog( 5026): Found preference for useBrowserHistory=false
-D/DroidGap( 5026): DroidGap.init()
-D/CordovaWebView( 5026): >>> loadUrl(file:///android_asset/www/index.html)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): Resuming the App
-D/DroidGap( 5026): onMessage(onPageStarted,file:///android_asset/www/index.html)
-D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): onMessage(onNativeReady,null)
-D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html)
-D/DroidGap( 5026): onMessage(networkconnection,wifi)
-D/DroidGap( 5026): onMessage(spinner,stop)
-D/CordovaLog( 5026): Initialised Add New Items Page
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
-D/CordovaLog( 5026): Initialised Camera Page
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
-D/CordovaLog( 5026): Initialised jQueryConfig
-D/CordovaLog( 5026): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
-D/CordovaLog( 5026): Initialised Items Page
-D/CordovaLog( 5026): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
-D/CordovaLog( 5026): Gallery Page: Device Ready
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 28 : Gallery Page: Device Ready
-D/CordovaLog( 5026): Initialised Gallery Page
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 24 : Initialised Gallery Page
-D/CordovaLog( 5026): Rendering Home Page
-D/CordovaLog( 5026): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
-D/DroidGap( 5026): onMessage(spinner,stop)
-D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#additem)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): onMessage(onNativeReady,null)
-D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
-D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#useGallery)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): onMessage(onNativeReady,null)
-D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
-D/CordovaLog( 5026): Gallery Page - Render
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 117 : Gallery Page - Render
-D/CordovaLog( 5026):  - Getting FileSystem and Photos
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 120 :  - Getting FileSystem and Photos
-D/CordovaLog( 5026): Got the file system: persistent
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Got the file system: persistent
-D/CordovaLog( 5026): Root entry name is sdcard
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 33 : Root entry name is sdcard
-D/CordovaLog( 5026): Photo Gallery complete
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 47 : Photo Gallery complete
-D/CordovaLog( 5026): Rendering Photos
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 56 : Rendering Photos
-D/CordovaLog( 5026): listDir..
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 62 : listDir..
-D/CordovaLog( 5026): Entries Length: - 3
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 68 : Entries Length: - 3
-I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200729.jpg
-I/CordovaThumbnailer( 5026): Image thumbnail already exists
-I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200720.jpg
-I/CordovaThumbnailer( 5026): Image thumbnail already exists
-D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
-D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
-D/DroidGap( 5026): Paused the application!
-D/CordovaWebView( 5026): Handle the pause
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): Resuming the App
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#additem)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): onMessage(onNativeReady,null)
-D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
-D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#useGallery)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): onMessage(onNativeReady,null)
-D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
-D/CordovaLog( 5026): Gallery Page - Render
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 117 : Gallery Page - Render
-D/CordovaLog( 5026):  - Getting FileSystem and Photos
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 120 :  - Getting FileSystem and Photos
-D/CordovaLog( 5026): Got the file system: persistent
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Got the file system: persistent
-D/CordovaLog( 5026): Root entry name is sdcard
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 33 : Root entry name is sdcard
-D/CordovaLog( 5026): Photo Gallery complete
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 47 : Photo Gallery complete
-D/CordovaLog( 5026): Rendering Photos
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 56 : Rendering Photos
-D/CordovaLog( 5026): listDir..
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 62 : listDir..
-D/CordovaLog( 5026): Entries Length: - 2
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 68 : Entries Length: - 2
-I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200729.jpg
-I/CordovaThumbnailer( 5026): Creating thumbnail for media item: /mnt/sdcard/DCIM/TEST/20120918_200720.jpg
-D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200729.jpg
-D/CordovaLog( 5026): Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
-D/CordovaLog( 5026): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 73 : Thumbpath: file:///mnt/sdcard/DCIM/TEST/pg_thumbs/20120918_200720.jpg
-D/Cordova ( 5026): onPageFinished(file:///android_asset/www/index.html#additem)
-D/CordovaWebView( 5026): >>> loadUrlNow()
-D/DroidGap( 5026): onMessage(onNativeReady,null)
-D/DroidGap( 5026): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
+I/CordovaLog(18654): Changing log level to DEBUG(3)
+I/CordovaLog(18654): Found preference for useBrowserHistory=false
+D/CordovaLog(18654): Found preference for useBrowserHistory=false
+D/DroidGap(18654): DroidGap.init()
+D/CordovaWebView(18654): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): Resuming the App
+D/DroidGap(18654): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/Cordova (18654): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): onMessage(onNativeReady,null)
+D/DroidGap(18654): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap(18654): onMessage(networkconnection,wifi)
+D/DroidGap(18654): onMessage(spinner,stop)
+D/CordovaLog(18654): Initialised Add New Items Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog(18654): Initialised Camera Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog(18654): Initialised jQueryConfig
+D/CordovaLog(18654): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog(18654): Initialised Items Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+D/CordovaLog(18654): Gallery Page: Device Ready
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 27 : Gallery Page: Device Ready
+D/CordovaLog(18654): Initialised Gallery Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 23 : Initialised Gallery Page
+D/CordovaLog(18654): Rendering Home Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
+D/DroidGap(18654): onMessage(spinner,stop)
+D/Cordova (18654): onPageFinished(file:///android_asset/www/index.html#additem)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): onMessage(onNativeReady,null)
+D/DroidGap(18654): onMessage(onPageFinished,file:///android_asset/www/index.html#additem)
+D/Cordova (18654): onPageFinished(file:///android_asset/www/index.html#useGallery)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): onMessage(onNativeReady,null)
+D/DroidGap(18654): onMessage(onPageFinished,file:///android_asset/www/index.html#useGallery)
+D/CordovaLog(18654): Gallery Page - Render
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 71 : Gallery Page - Render
+D/CordovaLog(18654):  - Getting FileSystem and Photos
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 74 :  - Getting FileSystem and Photos
+D/CordovaLog(18654): Got the file system: persistent
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 31 : Got the file system: persistent
+D/CordovaLog(18654): Root entry name is sdcard
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 32 : Root entry name is sdcard
+D/CordovaLog(18654): Generating Thumbnails
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 48 : Generating Thumbnails
+D/CordovaLog(18654): Rendering Thumbnails
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 55 : Rendering Thumbnails
+D/CordovaLog(18654): Print Results: 
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 83 : Print Results: 
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120725_233603.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120725_233603.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120725_233603.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120725_233603.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_015918.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_015918.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_015918.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_015918.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_165920.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_165920.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_165920.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_165920.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120718_174433.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120718_174433.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120718_174433.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120718_174433.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120918_200720.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120918_200720.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120918_200720.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120918_200720.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120830_152228.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120830_152228.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120830_152228.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120830_152228.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120818_150014.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120818_150014.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120818_150014.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120818_150014.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224116.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224116.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224116.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224116.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224207.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224207.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224207.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224207.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230241.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230241.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230241.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230241.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_012910.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012910.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_012910.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012910.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120927_181415.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120927_181415.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120927_181415.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120927_181415.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230926.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230926.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230926.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230926.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230234.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230234.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230234.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230234.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120623_123008.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120623_123008.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120623_123008.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120623_123008.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_012914.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012914.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_012914.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012914.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_014240.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_014240.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_014240.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_014240.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233836.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233836.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233836.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233836.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120803_131111.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120803_131111.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120803_131111.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120803_131111.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120624_162030.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162030.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120624_162030.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162030.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213701.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213701.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213701.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213701.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012857.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012857.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012857.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012857.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230750.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230750.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230750.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230750.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_122409.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_122409.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_122409.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_122409.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213211.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213211.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213211.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213211.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233850.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233850.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233850.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233850.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_091514.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091514.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_091514.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091514.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230553.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230553.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230553.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230553.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214523.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214523.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214523.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214523.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214538.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214538.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214538.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214538.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012830.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012830.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012830.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012830.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120802_170637.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120802_170637.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120802_170637.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120802_170637.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214517.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214517.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214517.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214517.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120719_231214.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_231214.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120719_231214.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_231214.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233910.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233910.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233910.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233910.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_091352.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091352.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_091352.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091352.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120915_202957.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120915_202957.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120915_202957.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120915_202957.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120819_011304.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120819_011304.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120819_011304.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120819_011304.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_090822.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090822.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_090822.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090822.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214604.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214604.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214604.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214604.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120915_150950.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120915_150950.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120915_150950.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120915_150950.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224103.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224103.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224103.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224103.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012825.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012825.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012825.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012825.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120624_164917.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_164917.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120624_164917.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_164917.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233747.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233747.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233747.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233747.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120908_143943.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120908_143943.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120908_143943.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120908_143943.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213306.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213306.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213306.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213306.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120922_123416.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120922_123416.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120922_123416.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120922_123416.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120624_162059.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162059.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120624_162059.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162059.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120630_194348.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120630_194348.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120630_194348.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120630_194348.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012950.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012950.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012950.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012950.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120802_184140.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120802_184140.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120802_184140.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120802_184140.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214533.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214533.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214533.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214533.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012959.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012959.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012959.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012959.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224324.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224324.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224324.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224324.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120716_235847.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120716_235847.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120716_235847.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120716_235847.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120719_151938.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_151938.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120719_151938.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_151938.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213725.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213725.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213725.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213725.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120803_131059.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120803_131059.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120803_131059.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120803_131059.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_015913.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_015913.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_015913.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_015913.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120719_195556.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_195556.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120719_195556.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_195556.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_014950.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_014950.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_014950.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_014950.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120624_162052.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162052.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120624_162052.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162052.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230854.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230854.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230854.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230854.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224331.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224331.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224331.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224331.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224404.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224404.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224404.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224404.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120824_230452.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120824_230452.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120824_230452.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120824_230452.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120623_123013.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120623_123013.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120623_123013.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120623_123013.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120818_145955.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120818_145955.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120818_145955.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120818_145955.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_014243.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_014243.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_014243.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_014243.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120629_211146.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120629_211146.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120629_211146.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120629_211146.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120714_133801.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120714_133801.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120714_133801.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120714_133801.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_091348.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091348.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_091348.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091348.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120706_150843.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120706_150843.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120706_150843.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120706_150843.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230633.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230633.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230633.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230633.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120918_200729.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120918_200729.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120918_200729.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120918_200729.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_191729.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_191729.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_191729.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_191729.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_091546.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091546.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_091546.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091546.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230653.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230653.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230653.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230653.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213540.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213540.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213540.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213540.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120725_233624.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120725_233624.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120725_233624.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120725_233624.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_230004.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_230004.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_230004.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_230004.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_015926.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_015926.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_015926.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_015926.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_020415.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_020415.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_020415.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_020415.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120915_202952.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120915_202952.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120915_202952.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120915_202952.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012835.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012835.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012835.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012835.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213232.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213232.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213232.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213232.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214554.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214554.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214554.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214554.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120630_194338.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120630_194338.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120630_194338.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120630_194338.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120912_142326.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120912_142326.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120912_142326.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120912_142326.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120912_142335.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120912_142335.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120912_142335.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120912_142335.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224413.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224413.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224413.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224413.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214547.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214547.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214547.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214547.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120624_174027.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_174027.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120624_174027.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_174027.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120719_231429.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_231429.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120719_231429.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_231429.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213842.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213842.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213842.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213842.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_012816.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012816.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_012816.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012816.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120803_131115.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120803_131115.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120803_131115.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120803_131115.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213516.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213516.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213516.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213516.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012844.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012844.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012844.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012844.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120630_194033.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120630_194033.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120630_194033.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120630_194033.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_090729.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090729.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_090729.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090729.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213223.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213223.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213223.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213223.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_091518.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091518.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_091518.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_091518.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120930_180406.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120930_180406.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120930_180406.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120930_180406.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_122417.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_122417.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_122417.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_122417.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213254.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213254.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213254.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213254.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_090718.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090718.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_090718.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090718.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230257.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230257.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230257.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230257.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120624_162030.jpg.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162030.jpg.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120624_162030.jpg.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120624_162030.jpg.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120725_233633.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120725_233633.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120725_233633.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120725_233633.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120818_145951.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120818_145951.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120818_145951.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120818_145951.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224216.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224216.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224216.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224216.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233759.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233759.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233759.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233759.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012840.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012840.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012840.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012840.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224237.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224237.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224237.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224237.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/cache.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/cache.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/cache.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/cache.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_012836.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012836.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_012836.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012836.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230339.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230339.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230339.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230339.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_230456.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230456.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_230456.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_230456.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120901_012849.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012849.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120901_012849.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120901_012849.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213157.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213157.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213157.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213157.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_122357.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_122357.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_122357.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_122357.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213133.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213133.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213133.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213133.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120805_165923.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_165923.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120805_165923.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120805_165923.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213653.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213653.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213653.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213653.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214512.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214512.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214512.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214512.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224127.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224127.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224127.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224127.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_090650.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090650.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_090650.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090650.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_214610.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214610.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_214610.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_214610.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_191733.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_191733.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_191733.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_191733.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120912_142331.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120912_142331.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120912_142331.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120912_142331.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224107.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224107.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224107.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224107.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120726_090750.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090750.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120726_090750.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120726_090750.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120913_012827.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012827.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120913_012827.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120913_012827.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233736.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233736.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233736.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233736.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_224233.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224233.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_224233.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_224233.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120702_180028.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120702_180028.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120702_180028.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120702_180028.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_213526.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213526.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_213526.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_213526.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120719_203407.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_203407.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120719_203407.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120719_203407.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120914_233923.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233923.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120914_233923.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120914_233923.jpg
+D/CordovaLog(18654): /mnt/sdcard/DCIM/Camera/20120814_212719.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_212719.jpg
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 85 : /mnt/sdcard/DCIM/Camera/20120814_212719.jpg: /mnt/sdcard/DCIM/Camera/pg_thumbs/20120814_212719.jpg
+D/CordovaLog(18654): ===================
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 87 : ===================
+D/CordovaLog(18654): Error in success callback: Thumbnailer5 = Code.PhotoSwipe.createInstance: No images to passed.
+D/CordovaLog(18654): file:///android_asset/www/js/libs/cordova/cordova.js: Line 260 : Error in success callback: Thumbnailer5 = Code.PhotoSwipe.createInstance: No images to passed.
+D/CordovaWebView(18654): >>> loadUrl(file:///mnt/sdcard/DCIM/Camera/20120624_162030.jpg.jpg)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/CordovaLog(18654): JSCallback Error: Request failed with status 0
+D/CordovaLog(18654): file:///android_asset/www/js/libs/cordova/cordova.js: Line 3743 : JSCallback Error: Request failed with status 0
+D/DroidGap(18654): onMessage(onPageStarted,file:///mnt/sdcard/DCIM/Camera/20120624_162030.jpg.jpg)
+D/Cordova (18654): onPageFinished(file:///mnt/sdcard/DCIM/Camera/20120624_162030.jpg.jpg)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): onMessage(onNativeReady,null)
+D/DroidGap(18654): onMessage(onPageFinished,file:///mnt/sdcard/DCIM/Camera/20120624_162030.jpg.jpg)
+D/CordovaWebView(18654): >>> loadUrl(file:///android_asset/www/index.html)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): onMessage(onPageStarted,file:///android_asset/www/index.html)
+D/Cordova (18654): onPageFinished(file:///android_asset/www/index.html)
+D/CordovaWebView(18654): >>> loadUrlNow()
+D/DroidGap(18654): onMessage(onNativeReady,null)
+D/DroidGap(18654): onMessage(onPageFinished,file:///android_asset/www/index.html)
+D/DroidGap(18654): onMessage(spinner,stop)
+D/CordovaLog(18654): Initialised Add New Items Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/addItem.js: Line 16 : Initialised Add New Items Page
+D/CordovaLog(18654): Initialised Camera Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/cameraImages.js: Line 14 : Initialised Camera Page
+D/CordovaLog(18654): Initialised jQueryConfig
+D/CordovaLog(18654): file:///android_asset/www/js/libs/jquery/jquery.mobile-config.js: Line 14 : Initialised jQueryConfig
+D/CordovaLog(18654): Initialised Items Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/items/items.js: Line 14 : Initialised Items Page
+D/CordovaLog(18654): Initialised Gallery Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 23 : Initialised Gallery Page
+D/CordovaLog(18654): Gallery Page: Device Ready
+D/CordovaLog(18654): file:///android_asset/www/js/views/addItem/galleryImages.js: Line 27 : Gallery Page: Device Ready
+D/CordovaLog(18654): Rendering Home Page
+D/CordovaLog(18654): file:///android_asset/www/js/views/home/home.js: Line 15 : Rendering Home Page
+D/DroidGap(18654): Paused the application!
+D/CordovaWebView(18654): Handle the pause
+D/CordovaWebView(18654): >>> loadUrlNow()
