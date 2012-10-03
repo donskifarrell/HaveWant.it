@@ -19,6 +19,10 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+// remove
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
 /**
  * This class echoes a string called from JavaScript.
  */
@@ -73,7 +77,12 @@ public class Thumbnailer extends Plugin {
 			return new PluginResult(PluginResult.Status.OK, new JSONObject(thumbs));
 		}
 		catch (Exception e){
-			Log.e(LOG_TAG, "Exception - " + e.toString());
+			StringWriter sw = new StringWriter();
+			PrintWriter pw = new PrintWriter(sw);
+			e.printStackTrace(pw);
+			Log.e(LOG_TAG, "Exception - " + e.toString() + 
+						" - Message: " + e.getMessage() +
+						" - StackTrace: " + sw.toString());
 			return new PluginResult(PluginResult.Status.ERROR);
 		}
     }
@@ -89,6 +98,7 @@ public class Thumbnailer extends Plugin {
 	}
 
 	private HashMap<String, String> createAlbumThumbnails(){
+		Log.i(LOG_TAG, "Creating thumbnails from album - THIS IS SLOW!");
 		HashMap<String, String> thumbs = new HashMap<String, String>();
 		File album = new File(_url);
 		if (album.exists()){
@@ -113,7 +123,12 @@ public class Thumbnailer extends Plugin {
 			if (!thumbItem.exists()){
 				FileOutputStream out = new FileOutputStream(thumbItem);
 				Bitmap bitmap = decodeMediaFile(fullItem);
-				bitmap.compress(Bitmap.CompressFormat.JPEG, 55, out);
+				if (bitmap != null){
+					bitmap.compress(Bitmap.CompressFormat.JPEG, 55, out);					
+				} else {
+					Log.i(LOG_TAG, "Could not create thumbnail for '" + fullItem.getPath() + "'");
+					return "";
+				}
 			}
 			return thumbItem.getPath();
 		}

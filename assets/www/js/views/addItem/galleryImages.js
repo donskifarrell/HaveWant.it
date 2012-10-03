@@ -6,12 +6,14 @@ define([
   'klass',
   'photoswipe',
 
-  'text!templates/addItem/galleryImages.html'
+  'text!templates/addItem/galleryImages.html',
+  'text!templates/addItem/selectImagesListItem.html'
 ], 
 
-function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate){
+function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate, selectImagesListItem){
   var galleryView = Backbone.View.extend({
     el: '#page',
+    imageListItemTemplate: _.template(selectImagesListItem),
 
     initialize: function(){
       _.bindAll(this, 'fsRequestSuccess');
@@ -53,18 +55,22 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate){
 
     renderThumbs: function(thumbPaths) {
       console.log("Rendering Thumbnails");
-      this.printResults(thumbPaths);
-
-      for (img in thumbPaths) {
-        $('#gallery')
-          .append('<li><a href="' + 
-            img + '"><img src="' + 
-            thumbPaths[img] + '"/></a></li>');
-      }
+      //this.printResults(thumbPaths);
+      var listItem;
 
       $.mobile.hidePageLoadingMsg();
+      for (img in thumbPaths) {
+        listItem = this.imageListItemTemplate(
+          { 
+            'full': img,
+            'thumb': thumbPaths[img]
+          });
+        $('#galleryList').append(listItem);
+        $('#galleryList').listview('refresh');
+      }
+
       var options = {};
-      $("#Gallery a").photoSwipe(options);
+      //$("#galleryList").photoSwipe(options);
     },
 
     render: function() {      
