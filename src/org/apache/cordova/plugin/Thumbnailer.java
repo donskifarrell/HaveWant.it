@@ -64,17 +64,14 @@ public class Thumbnailer extends Plugin {
 			return new PluginResult(PluginResult.Status.ERROR);
 		}
 
-		try {		
-			HashMap<String, String> thumbs = new HashMap<String, String>();
-			if (action.equals(CREATE_VIDEO)) thumbs = createVideoThumbnail();
-			else if (action.equals(CREATE_IMAGE)) thumbs = createImageThumbnail();
-			else if (action.equals(CREATE_ALBUM)) thumbs = createAlbumThumbnails();
+		try {
+			if (action.equals(CREATE_VIDEO)) return new PluginResult(PluginResult.Status.OK, createVideoThumbnail());
+			else if (action.equals(CREATE_IMAGE)) return new PluginResult(PluginResult.Status.OK, createImageThumbnail());
+			else if (action.equals(CREATE_ALBUM)) return new PluginResult(PluginResult.Status.OK, createAlbumThumbnails());
 			else {
 				Log.e(LOG_TAG, "Invalid action supplied to plugin!");
 				return new PluginResult(PluginResult.Status.INVALID_ACTION);
-			}
-
-			return new PluginResult(PluginResult.Status.OK, new JSONObject(thumbs));
+			}			
 		}
 		catch (Exception e){
 			StringWriter sw = new StringWriter();
@@ -87,17 +84,18 @@ public class Thumbnailer extends Plugin {
 		}
     }
 
-	private HashMap<String, String> createVideoThumbnail(){
+	private JSONObject createVideoThumbnail(){
 		throw new java.lang.UnsupportedOperationException();
 	}
 
-	private HashMap<String, String> createImageThumbnail(){
-		HashMap<String, String> thumbs = new HashMap<String, String>();
-		thumbs.put(_url, createThumbnail(new File(_url)));
-		return thumbs;
+	private JSONArray createImageThumbnail(){
+		JSONArray thumb = new JSONArray();
+		thumb.put(_url);
+		thumb.put(createThumbnail(new File(_url)));
+		return thumb;
 	}
 
-	private HashMap<String, String> createAlbumThumbnails(){
+	private JSONObject createAlbumThumbnails(){
 		Log.i(LOG_TAG, "Creating thumbnails from album - THIS IS SLOW!");
 		HashMap<String, String> thumbs = new HashMap<String, String>();
 		File album = new File(_url);
@@ -114,7 +112,7 @@ public class Thumbnailer extends Plugin {
 				thumbs.put(item.getPath(), createThumbnail(item));
 			}
 		}
-		return thumbs;
+		return new JSONObject(thumbs);
 	}
 
 	private String createThumbnail(File fullItem){

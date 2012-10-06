@@ -13,7 +13,7 @@ function Thumbnailer() {
 	var config = {
 		THUMBNAIL_HEIGHT: 48,
 		THUMBNAIL_WIDTH: 66,
-		IMAGE_MAX_SIZE: 70,
+		IMAGE_MAX_SIZE: 80,
 		THUMB_DIR_NAME: 'pg_thumbs',
 		ALLOW_SUB_DIRS: false
 	}

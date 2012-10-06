@@ -14,12 +14,14 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate, 
   var galleryView = Backbone.View.extend({
     el: '#page',
     imageListItemTemplate: _.template(selectImagesListItem),
+    showLoading: true,
 
     initialize: function(){
       _.bindAll(this, 'fsRequestSuccess');
       _.bindAll(this, 'fsRequestError');
+      _.bindAll(this, 'getAlbumImages');
       _.bindAll(this, 'generateThumbs');
-      _.bindAll(this, 'renderThumbs');
+      _.bindAll(this, 'renderThumbnail');
 
       document.addEventListener("deviceready", this.onDeviceReady, true);
       console.log("Initialised Gallery Page");
@@ -37,7 +39,7 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate, 
       sdcard.getDirectory(
         'DCIM/Camera', 
         { create: false }, 
-        this.generateThumbs, 
+        this.getAlbumImages, 
         this.fsRequestError);
     },
 
@@ -46,31 +48,38 @@ function($, _, Backbone, thumbnailer, klass, PhotoSwipe, galleryImagesTemplate, 
       console.log("File System Error: " + e.toString());
     },
 
-    generateThumbs: function(albumDir) {
-      console.log("Generating Thumbnails");
-
-      $.mobile.showPageLoadingMsg();
-      thumbnailer.createAlbumThumbnails(albumDir.fullPath, this.renderThumbs);
+    getAlbumImages: function(albumDir) {    
+      $.mobile.showPageLoadingMsg();  
+      console.log("Getting images from album '" + albumDir.fullPath + "'");
+      var albumReader = albumDir.createReader();
+      albumReader.readEntries(this.generateThumbs, this.fsRequestError);
     },
 
-    renderThumbs: function(thumbPaths) {
-      console.log("Rendering Thumbnails");
-      //this.printResults(thumbPaths);
-      var listItem;
+    generateThumbs: function(images) {
+      for (var id = 0; id <= images.length - 1; id++) {
+        thumbnailer.createImageThumbnail(images[id].fullPath, this.renderThumbnail);
+      };
+    },
 
-      $.mobile.hidePageLoadingMsg();
-      for (img in thumbPaths) {
-        listItem = this.imageListItemTemplate(
-          { 
-            'full': img,
-            'thumb': thumbPaths[img]
-          });
-        $('#galleryList').append(listItem);
-        $('#galleryList').listview('refresh');
+    renderThumbnail: function(thumbPath) {
+      if (this.showLoading) {
+        console.log("!!!!!hidePageLoadingMsg");
+        $.mobile.hidePageLoadingMsg();
+        this.showLoading = false;
       }
 
-      var options = {};
-      //$("#galleryList").photoSwipe(options);
+      var img = thumbPath[0];
+      var name = img.substring(img.lastIndexOf('/') + 1);
+      var thumb = thumbPath[1];     
+      var listItem;
+      listItem = this.imageListItemTemplate(
+        { 
+          'full': img,
+          'name': name,
+          'thumb': thumb
+        });
+      $('#galleryList').append(listItem);
+      $('#galleryList').listview('refresh');
     },
 
     render: function() {      
