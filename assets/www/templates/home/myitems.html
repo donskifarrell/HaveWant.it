@@ -1,0 +1,5 @@
+<ul class="inset">
+  <% _.each(projects, function(project){ %>
+   <li class="inset"><%= project.get("name") %> - <%= project.get("score") %></li> 
+  <% }); %>
+</ul>

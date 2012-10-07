@@ -2,7 +2,6 @@ define([
   'backbone',
 
   'views/home/home',
-  'views/items/items',
   'views/addItem/addItem',
   'views/addItem/galleryImages',
   'views/addItem/cameraImages'
@@ -19,16 +18,11 @@ function(
 
   var AppRouter = Backbone.Router.extend({
     routes: {
-      'items': 'showItems',
       'additem': 'addNewItem',
       'useCamera': 'useCamera',
       'useGallery': 'useGallery',
 
       '*actions': 'showHomePage'
-    },
-
-    showItems: function(){
-      itemsList.render();
     },
 
     addNewItem: function(){

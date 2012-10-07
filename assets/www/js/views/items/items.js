@@ -4,7 +4,7 @@ define([
   'backbone',
   
   // Pull in the Collection module from above
-  'collections/projects',
+  'collections/items',
   'text!templates/items/items.html'
 
 ], function($, _, Backbone, projectsCollection, projectListTemplate){
